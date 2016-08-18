@@ -1,0 +1,558 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Item"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Doador"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Codigo"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Modelo"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Fabricante"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Estado_de_Conservacao"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Categoria"/>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#hasModelo">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Item"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Modelo"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#hasEstado_de_Conservacao"/>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#hasFabricante">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Item"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Fabricante"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#hasCategoria">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Item"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Categoria"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#hasDoador">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Item"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Doador"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#hasCodigo">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Item"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Codigo"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#hasAno_de_Fabricacao">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/rauldonaire/ontologies/2016/5/untitled-ontology-20#Item"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </owl:DatatypeProperty>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0013">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0013">
+        <rdfs:label>NP - 0013</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/MAQUINA_DATILOGRAFICA">
+        <rdfs:label>MAQUINA DATILOGRAFICA</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO">
+        <rdfs:label>CONSERVADO</rdfs:label>
+      </rdf:Description>
+    </hasEstado_de_Conservacao>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/SMITH_CORONA">
+        <rdfs:label>SMITH CORONA</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/CLASSIC_12">
+        <rdfs:label>CLASSIC 12</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Doador/">
+        <rdfs:label></rdfs:label>
+      </rdf:Description>
+    </hasDoador>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0001">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0001">
+        <rdfs:label>NP - 0001</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/COMPUTADOR">
+        <rdfs:label>COMPUTADOR</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/HP">
+        <rdfs:label>HP</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/HP_PAVILION_TX1000">
+        <rdfs:label>HP PAVILION TX1000</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao>2007</hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0014">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0014">
+        <rdfs:label>NP - 0014</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/CALCULADORA_CIENTAFICA">
+        <rdfs:label>CALCULADORA CIENTAFICA</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante rdf:resource="http://mc.icmc.usp.br/Fabricante/HP"/>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/HP-21">
+        <rdfs:label>HP-21</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0002">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0002">
+        <rdfs:label>NP - 0002</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/SUPORTE_PARA_NOTEBOOK">
+        <rdfs:label>SUPORTE PARA NOTEBOOK</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante rdf:resource="http://mc.icmc.usp.br/Fabricante/HP"/>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/HP_XB3000_NOTEBOOK_EXPANSION_BASE">
+        <rdfs:label>HP XB3000 NOTEBOOK EXPANSION BASE</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0015">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0015">
+        <rdfs:label>NP - 0015</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/CELULAR">
+        <rdfs:label>CELULAR</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/NOKIA">
+        <rdfs:label>NOKIA</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/E-71">
+        <rdfs:label>E-71</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0023">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0023">
+        <rdfs:label>NP - 0023</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/IMPRESSORA">
+        <rdfs:label>IMPRESSORA</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/IBM">
+        <rdfs:label>IBM</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/6746">
+        <rdfs:label>6746</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0011">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0011">
+        <rdfs:label>NP - 0011</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/DISQUETE">
+        <rdfs:label>DISQUETE</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/MAXELL">
+        <rdfs:label>MAXELL</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/MF2HD">
+        <rdfs:label>MF2HD</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0008">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0008">
+        <rdfs:label>NP - 0008</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria rdf:resource="http://mc.icmc.usp.br/Categoria/CELULAR"/>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/HUAWEI">
+        <rdfs:label>HUAWEI</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/C208s">
+        <rdfs:label>C208s</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0012">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0012">
+        <rdfs:label>NP - 0012</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria rdf:resource="http://mc.icmc.usp.br/Categoria/MAQUINA_DATILOGRAFICA"/>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/OLIVETTI">
+        <rdfs:label>OLIVETTI</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/STUDIO_44">
+        <rdfs:label>STUDIO 44</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0009">
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0009">
+        <rdfs:label>NP - 0009</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/1100a">
+        <rdfs:label>1100a</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasFabricante rdf:resource="http://mc.icmc.usp.br/Fabricante/NOKIA"/>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/INSTRUMENTO_DE_CALCULO">
+        <rdfs:label>INSTRUMENTO DE CALCULO</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasFabricante rdf:resource="http://mc.icmc.usp.br/Fabricante/IBM"/>
+    <hasEstado_de_Conservacao>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Estado_de_Conservacao/POUCO_CONSERVADO">
+        <rdfs:label>POUCO CONSERVADO</rdfs:label>
+      </rdf:Description>
+    </hasEstado_de_Conservacao>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasCategoria rdf:resource="http://mc.icmc.usp.br/Categoria/CELULAR"/>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/ABACO">
+        <rdfs:label>ABACO</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0021">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0021">
+        <rdfs:label>NP - 0021</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/MAQUINA_FOTOGRAFICA">
+        <rdfs:label>MAQUINA FOTOGRAFICA</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Estado_de_Conservacao/LEVEMENTE_CONSERVADO">
+        <rdfs:label>LEVEMENTE CONSERVADO</rdfs:label>
+      </rdf:Description>
+    </hasEstado_de_Conservacao>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/Zenit">
+        <rdfs:label>Zenit</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/MC_HELIOS_-_44M-6">
+        <rdfs:label>MC HELIOS - 44M-6</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0006">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0006">
+        <rdfs:label>NP - 0006</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/CAMERA_FOTOGRAFICA">
+        <rdfs:label>CAMERA FOTOGRAFICA</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/YASHICA">
+        <rdfs:label>YASHICA</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/MD_135_AE">
+        <rdfs:label>MD 135 AE</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0018">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0018">
+        <rdfs:label>NP - 0018</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/SCANNER">
+        <rdfs:label>SCANNER</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante rdf:resource="http://mc.icmc.usp.br/Fabricante/HP"/>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/SCANJET_3400C">
+        <rdfs:label>SCANJET 3400C</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0003_">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0003_">
+        <rdfs:label>NP - 0003 </rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/DRIVE">
+        <rdfs:label>DRIVE</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/UNITRON">
+        <rdfs:label>UNITRON</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/DISK_DRIVE_UNITRON_5_e_14">
+        <rdfs:label>DISK DRIVE UNITRON 5 e 1/4</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0022">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0022">
+        <rdfs:label>NP - 0022</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria rdf:resource="http://mc.icmc.usp.br/Categoria/MAQUINA_FOTOGRAFICA"/>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/MINOLTA">
+        <rdfs:label>MINOLTA</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/MAXXUM_300si">
+        <rdfs:label>MAXXUM 300si</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0010">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0010">
+        <rdfs:label>NP - 0010</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria rdf:resource="http://mc.icmc.usp.br/Categoria/CELULAR"/>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/POUCO_CONSERVADO"/>
+    <hasFabricante rdf:resource="http://mc.icmc.usp.br/Fabricante/NOKIA"/>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/2660">
+        <rdfs:label>2660</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0019">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0019">
+        <rdfs:label>NP - 0019</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/DRIVE_-_CD">
+        <rdfs:label>DRIVE - CD</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/TOSHIBA">
+        <rdfs:label>TOSHIBA</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/FDD_ATTACHMENT_CASE">
+        <rdfs:label>FDD ATTACHMENT CASE</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0007">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0007">
+        <rdfs:label>NP - 0007</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria rdf:resource="http://mc.icmc.usp.br/Categoria/CELULAR"/>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/LEVEMENTE_CONSERVADO"/>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/MOTOROLA">
+        <rdfs:label>MOTOROLA</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/SUG3746AC_AC2-41D11_C200">
+        <rdfs:label>SUG3746AC AC2-41D11 C200</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0016">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0016">
+        <rdfs:label>NP - 0016</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria rdf:resource="http://mc.icmc.usp.br/Categoria/CELULAR"/>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante rdf:resource="http://mc.icmc.usp.br/Fabricante/NOKIA"/>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/XpressMusic">
+        <rdfs:label>XpressMusic</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0020">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0020">
+        <rdfs:label>NP - 0020</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/DRIVE_-_DISQUETE">
+        <rdfs:label>DRIVE - DISQUETE</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/IOMEGA_ZIP_100">
+        <rdfs:label>IOMEGA ZIP 100</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/Z100P2">
+        <rdfs:label>Z100P2</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0017">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0017">
+        <rdfs:label>NP - 0017</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Categoria/SECRETARIA_ELETRANICA">
+        <rdfs:label>SECRETARIA ELETRANICA</rdfs:label>
+      </rdf:Description>
+    </hasCategoria>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Fabricante/PANASONIC">
+        <rdfs:label>PANASONIC</rdfs:label>
+      </rdf:Description>
+    </hasFabricante>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/EASA-PHONE_KX-T1450">
+        <rdfs:label>EASA-PHONE KX-T1450</rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+  <Item rdf:about="http://mc.icmc.usp.br/Item/NP_-_0005">
+    <hasCodigo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/codigo/NP_-_0005">
+        <rdfs:label>NP - 0005</rdfs:label>
+      </rdf:Description>
+    </hasCodigo>
+    <hasCategoria rdf:resource="http://mc.icmc.usp.br/Categoria/CELULAR"/>
+    <hasEstado_de_Conservacao rdf:resource="http://mc.icmc.usp.br/Estado_de_Conservacao/CONSERVADO"/>
+    <hasFabricante rdf:resource="http://mc.icmc.usp.br/Fabricante/MOTOROLA"/>
+    <hasModelo>
+      <rdf:Description rdf:about="http://mc.icmc.usp.br/Modelo/">
+        <rdfs:label></rdfs:label>
+      </rdf:Description>
+    </hasModelo>
+    <hasDoador rdf:resource="http://mc.icmc.usp.br/Doador/"/>
+    <hasAno_de_Fabricacao></hasAno_de_Fabricacao>
+  </Item>
+</rdf:RDF>
